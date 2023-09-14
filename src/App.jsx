@@ -7,9 +7,10 @@ function App() {
   const [courseDetails, setCourseDetails] = useState([]);
   const [courseCredit, setCourseCredit] = useState(0);
   const [remainingCredit, setRemainingCredit] = useState(20);
+  const [totalPrice, setTotalPrice] = useState(0);
 
   const handleSelectBtn = (course) => {
-    const { id, courseName, credit, price, details } = course
+    const { id, credit, price,  } = course
 
     const isExist = courseDetails.find((item) => item.id === id)
     // isExist ?  alert('Already Added')  : setCourseDetails([...courseDetails, course])
@@ -35,6 +36,15 @@ function App() {
     setRemainingCredit(remaining)
 
 
+    // Total Price
+  const priceFloat = price.toFixed(2)
+  const ActulePrice = parseFloat(priceFloat)
+  const total = parseFloat(totalPrice + ActulePrice)
+  
+  setTotalPrice(total)
+    
+
+
   }
 
   return (
@@ -48,6 +58,7 @@ function App() {
           courseDetails={courseDetails}
           courseCredit={courseCredit}
           remainingCredit={remainingCredit}
+          totalPrice={totalPrice}
         ></Sidebar>
       </div>
     </>
