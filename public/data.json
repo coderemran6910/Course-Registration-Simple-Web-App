@@ -3,74 +3,74 @@
     {
       "id": "1",
       "image": "https://i.ibb.co/rxTHFjF/Rectangle-2.png",
-      "courseName": "Course 1",
+      "courseName": "Introduction to C Programming",
       "credit": 3,
-      "price": 49.99,
-      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "price": 15000,
+      "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
     },
     {
       "id": "2",
       "image": "https://i.ibb.co/TMg9DyH/Rectangle-2-1.png",
-      "courseName": "Course 2",
+      "courseName": "Introduction to Algorithms",
       "credit": 4,
-      "price": 59.99,
-      "details": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      "price": 25000,
+      "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
     },
     {
       "id": "3",
       "image": "https://i.ibb.co/8jH0M31/Rectangle-2-2.png",
-      "courseName": "Course 3",
+      "courseName": "Introduction to C++ for DSA",
       "credit": 2,
       "price": 39.99,
-      "details": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+      "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
     },
     {
       "id": "4",
       "image": "https://i.ibb.co/qm42nh8/Rectangle-2-3.png",
-      "courseName": "Course 4",
+      "courseName": "Basic Data Structures",
       "credit": 5,
       "price": 69.99,
-      "details": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore."
+      "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
     },
     {
       "id": "5",
       "image": "https://i.ibb.co/swgJzM0/Rectangle-2-4.png",
-      "courseName": "Course 5",
+      "courseName": "Introduction to OOP Python",
       "credit": 3,
       "price": 49.99,
-      "details": "Fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+      "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
     },
     {
       "id": "6",
       "image": "https://i.ibb.co/K6nQVvQ/Rectangle-2-5.png",
-      "courseName": "Course 6",
+      "courseName": "Software Engineering",
       "credit": 4,
       "price": 59.99,
-      "details": "Sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.."
     },
     {
       "id": "7",
       "image": "https://i.ibb.co/K6TyGvP/Rectangle-2-6.png",
-      "courseName": "Course 7",
+      "courseName": "AWS, Cloud Computing",
       "credit": 2,
       "price": 39.99,
-      "details": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit."
+      "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
     },
     {
       "id": "8",
       "image": "https://i.ibb.co/QCkKgpf/Rectangle-3.png",
-      "courseName": "Course 8",
+      "courseName": "Database (MySQL)",
       "credit": 5,
       "price": 69.99,
-      "details": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam."
+      "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
     },
     {
       "id": "9",
       "image": "https://i.ibb.co/3MKMmJj/Rectangle-3-1.png",
-      "courseName": "Course 9",
+      "courseName": "Problem-Solving Part",
       "credit": 3,
       "price": 49.99,
-      "details": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis."
+      "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.."
     }
   ]
   

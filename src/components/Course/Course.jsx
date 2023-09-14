@@ -5,12 +5,12 @@ const Course = ({ course }) => {
     const { image, courseName, credit, price, details } = course
     return (
         <div>
-            <div className="card  w-72 bg-base-100 shadow-xl flex flex-col flex-1 ">
+            <div className="card   w-80 bg-base-100 shadow-xl flex flex-col flex-1 ">
                 <figure className="px-4 pt-4">
                     <img src={image} alt="Shoes" className="rounded-xl" />
                 </figure>
                 <div className=" text-left my-4 mx-4">
-                    <h2 className="card-title text-left text-xl font-semibold">{courseName}</h2>
+                    <h2 className="card-title text-left text-[18px] font-semibold">{courseName}</h2>
                     <p className="text-left mt-3 text-opacity-60 text-gray-900 font-normal">{details}</p>
                     <div className="flex justify-between items-center mt-5 text-opacity-60 text-gray-900  font-medium ">
                         <div className="flex items-center gap-3 ">
