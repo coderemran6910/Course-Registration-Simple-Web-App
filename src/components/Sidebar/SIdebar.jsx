@@ -1,6 +1,6 @@
 
 import PropTypes from "prop-types"
-const Sidebar = ({ courseDetails, courseCredit }) => {
+const Sidebar = ({ courseDetails, courseCredit, remainingCredit }) => {
 
     return (
         <div className="w-3/12 bg-white py-6 px-6">
@@ -25,7 +25,8 @@ const Sidebar = ({ courseDetails, courseCredit }) => {
 
 Sidebar.propTypes = {
     courseDetails: PropTypes.array,
-    courseCredit: PropTypes.number
+    courseCredit: PropTypes.number,
+    remainingCredit: PropTypes.number
 }
 
 export default Sidebar;
