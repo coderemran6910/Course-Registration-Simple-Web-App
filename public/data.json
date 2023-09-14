@@ -1,0 +1,76 @@
+
+[
+    {
+      "id": "1",
+      "image": "https://i.ibb.co/rxTHFjF/Rectangle-2.png",
+      "courseName": "Course 1",
+      "credit": 3,
+      "price": 49.99,
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "id": "2",
+      "image": "https://i.ibb.co/TMg9DyH/Rectangle-2-1.png",
+      "courseName": "Course 2",
+      "credit": 4,
+      "price": 59.99,
+      "details": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "id": "3",
+      "image": "https://i.ibb.co/8jH0M31/Rectangle-2-2.png",
+      "courseName": "Course 3",
+      "credit": 2,
+      "price": 39.99,
+      "details": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+    },
+    {
+      "id": "4",
+      "image": "https://i.ibb.co/qm42nh8/Rectangle-2-3.png",
+      "courseName": "Course 4",
+      "credit": 5,
+      "price": 69.99,
+      "details": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore."
+    },
+    {
+      "id": "5",
+      "image": "https://i.ibb.co/swgJzM0/Rectangle-2-4.png",
+      "courseName": "Course 5",
+      "credit": 3,
+      "price": 49.99,
+      "details": "Fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+    },
+    {
+      "id": "6",
+      "image": "https://i.ibb.co/K6nQVvQ/Rectangle-2-5.png",
+      "courseName": "Course 6",
+      "credit": 4,
+      "price": 59.99,
+      "details": "Sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "id": "7",
+      "image": "https://i.ibb.co/K6TyGvP/Rectangle-2-6.png",
+      "courseName": "Course 7",
+      "credit": 2,
+      "price": 39.99,
+      "details": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit."
+    },
+    {
+      "id": "8",
+      "image": "https://i.ibb.co/QCkKgpf/Rectangle-3.png",
+      "courseName": "Course 8",
+      "credit": 5,
+      "price": 69.99,
+      "details": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam."
+    },
+    {
+      "id": "9",
+      "image": "https://i.ibb.co/3MKMmJj/Rectangle-3-1.png",
+      "courseName": "Course 9",
+      "credit": 3,
+      "price": 49.99,
+      "details": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis."
+    }
+  ]
+  
