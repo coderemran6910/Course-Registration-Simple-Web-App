@@ -1,11 +1,10 @@
 import PropTypes from "prop-types";
 
-const Course = ({ course }) => {
-    console.log(course);
+const Course = ({ course, handleSelectBtn }) => {
     const { image, courseName, credit, price, details } = course
     return (
         <div>
-            <div className="card   w-80 bg-base-100 shadow-xl flex flex-col flex-1 ">
+            <div className="card   w-80 bg-base-100 shadow-xl flex flex-col flex-1 rounded-xl ">
                 <figure className="px-4 pt-4">
                     <img src={image} alt="Shoes" className="rounded-xl" />
                 </figure>
@@ -29,7 +28,7 @@ const Course = ({ course }) => {
 
                     </div>
                     <div className="card-actions w-full mt-6">
-                        <button className="btn btn-primary w-full">Select</button>
+                        <button onClick={()=>handleSelectBtn(course)} className="btn btn-primary w-full bg-blue-600">Select</button>
                     </div>
                 </div>
             </div>
@@ -38,6 +37,7 @@ const Course = ({ course }) => {
 };
 
 Course.propTypes = {
-    course: PropTypes.object
+    course: PropTypes.object.isRequired,
+    handleSelectBtn: PropTypes.func.isRequired
 }
 export default Course;
