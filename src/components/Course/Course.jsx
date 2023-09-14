@@ -4,7 +4,7 @@ const Course = ({ course, handleSelectBtn }) => {
     const { image, courseName, credit, price, details } = course
     return (
         <div>
-            <div className="card   w-80 bg-base-100 shadow-xl flex flex-col flex-1 rounded-xl ">
+            <div className="card w-72 bg-base-100 shadow-xl flex flex-col flex-1 rounded-xl ">
                 <figure className="px-4 pt-4">
                     <img src={image} alt="Shoes" className="rounded-xl" />
                 </figure>

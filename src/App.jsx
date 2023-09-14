@@ -37,9 +37,7 @@ function App() {
 
 
     // Total Price
-  const priceFloat = price.toFixed(2)
-  const ActulePrice = parseFloat(priceFloat)
-  const total = parseFloat(totalPrice + ActulePrice)
+  const total = parseFloat(totalPrice + price)
   
   setTotalPrice(total)
     
@@ -49,8 +47,8 @@ function App() {
 
   return (
     <>
-      <h1 className="text-4xl font-bold text-center mt-4 mb-12">Course Registration</h1>
-      <div className='flex justify-center container mx-auto gap-10'>
+      <h1 className=" text-2xl lg:text-4xl font-bold text-center mt-4 mb-12">Course Registration</h1>
+      <div className='flex flex-col lg:flex-row justify-center container mx-auto gap-10 my-12'>
         <Courses
           handleSelectBtn={handleSelectBtn}
         ></Courses>
