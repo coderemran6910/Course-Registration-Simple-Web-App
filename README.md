@@ -10,8 +10,19 @@ Currently, two official plugins are available:
 
 # Answer to the Q: No:-1
 ## My project feature are:
-1. Click the "Select" button to add a course to your registration.
-2. The application will display an error if you reach the credit limit or try to select a course that's already added.
-3. The sidebar will show your selected courses, total credit hours, remaining credit limit, and total price.
+1. Click the "Select" button to add a course to  registration.
+2. The application will display an error if  reach the credit limit or try to select a course that's already added.
+3. The sidebar will show selected courses, total credit hours, remaining credit limit, and total price.
 
 
+# Answer to the Q: No:- 2
+## Now i am Discuss how I managed the state in This project.
+
+I have several state variables declared using the useState hook:
+1. setCourseDetails([...courseDetails, course]): When a course is selected, it's added to the courseDetails array. I use the spread operator ... to create a new array with the selected course added.
+
+2. setCourseCredit(newCredit): I update the courseCredit by adding the credit of the selected course to the current value.
+
+3. setRemainingCredit(remaining): The remainingCredit is updated by subtracting the credit of the selected course from the maximum credit limit (20).
+
+4. setTotalPrice(total): I update the totalPrice by adding the price of the selected course to the current total.
