@@ -2,6 +2,8 @@ import { useState } from 'react'
 import './App.css'
 import Courses from './components/Courses/Courses'
 import Sidebar from './components/Sidebar/SIdebar'
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const [courseDetails, setCourseDetails] = useState([]);
@@ -15,7 +17,9 @@ function App() {
     const isExist = courseDetails.find((item) => item.id === id)
     // isExist ?  alert('Already Added')  : setCourseDetails([...courseDetails, course])
     if(isExist){
-      alert('This item is already added')
+      toast.error('This item is already added', {
+        position: toast.POSITION.TOP_CENTER
+      });
       return
     }else{
       setCourseDetails([...courseDetails, course])
@@ -25,7 +29,9 @@ function App() {
     const newCredit = courseCredit + credit
     // courseCredit > 20 ? alert('Credit Limit Reached') : setCourseCredit(newCredit)
     if(newCredit > 20){
-      alert('Sorry, You have reached your credit limit')
+      toast.error('Sorry, You have reached your credit limit', {
+        position: toast.POSITION.TOP_CENTER
+      });
       return
     }
     setCourseCredit(newCredit)
@@ -40,10 +46,10 @@ function App() {
   const total = parseFloat(totalPrice + price)
   
   setTotalPrice(total)
-    
-
-
   }
+
+
+ 
 
   return (
     <>

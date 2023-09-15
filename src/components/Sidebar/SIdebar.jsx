@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 const Sidebar = ({ courseDetails, courseCredit, remainingCredit, totalPrice }) => {
 
     return (
-        <div className=" w-full lg:w-1/3 bg-white py-4 px-4 mx-auto ">
+        <div className=" w-full lg:w-1/3 bg-white border-2  py-4 px-4 mx-auto rounded-xl">
            <div className="mb-6">
                 <p className=" text-lg font-bold text-cyan-500">Credit Hour Remaining {remainingCredit} hr</p>
             </div>
@@ -21,7 +21,7 @@ const Sidebar = ({ courseDetails, courseCredit, remainingCredit, totalPrice }) =
                 <p>Total Credit Hour: {courseCredit}</p>
             </div>
             <hr />
-            <div className="mt-6 font-semibold text-opacity-60 text-gray-900 ">
+            <div className="mt-6 font-semibold  text-gray-900 ">
                 <p>Total Price: {totalPrice.toFixed(2)} USD</p>
             </div>
             
